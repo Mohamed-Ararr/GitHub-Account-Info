@@ -12,6 +12,7 @@ class DevHub extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
       routerConfig: AppRouter.routes,
       theme: ThemeData(
         brightness: Brightness.dark,
